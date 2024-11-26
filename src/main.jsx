@@ -9,6 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <Header />
+    афыварфарфолар
     <App />
     <Footer />
 
