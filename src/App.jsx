@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
-        <Header />
-        <Footer />
+      <main className='main'>
+          <Header />
+          <Footer />
+      </main>
     </>
   )
 }

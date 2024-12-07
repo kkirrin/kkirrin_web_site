@@ -1,6 +1,8 @@
+import styles from './style.module.css'
+
 const Footer = () => {
     return (
-        <header className="fixed container">
+        <footer className={styles.footer}>
             <div>
                 <span>Footer</span>
             </div>
@@ -9,7 +11,7 @@ const Footer = () => {
             <div>
                 Nav
             </div>
-        </header>
+        </footer>
     )
 }
 
