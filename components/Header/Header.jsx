@@ -1,9 +1,9 @@
 const Header = () => {
     return (
         <header className="fixed container">
-            <div className="flex justify-between items-center">
+            <div className="flex bg-red-400">
                 <div>
-                    <span>Logo</span>
+                    <span className="text-7xl">Logo</span>
                 </div>
                 
 
