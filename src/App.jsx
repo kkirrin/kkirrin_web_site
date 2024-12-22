@@ -8,6 +8,9 @@ function App() {
     <>
       <main className='main'>
           <Header />
+          <div className='container'>
+
+          </div>
           <Footer />
       </main>
     </>
