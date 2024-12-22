@@ -9,7 +9,7 @@ const Header = () => {
 
                     <div>
                         <div>
-                            <span>Logo</span>
+                            <span>Kkirrin Fullstack Developer | KFD </span>
                         </div>
                     </div>
 

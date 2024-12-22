@@ -4,12 +4,35 @@
 
 :root {
   --main-black: #1f1f1f;
+  --main-white: #fff;
   --main-text: #fff;
   --second-black: #222222;
 
   --violet: #6135c7;
-
+  --violet-black: #3a1492;
   --anim-function: 0.3s easy;
+
+  --main-gray: #c5c5c5;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--second-black); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--violet-black); /* color of the scroll thumb */
+  border-radius: 5px; /* roundness of the scroll thumb */
+  border: 3px solid var(--violet); /*creates space around scrollbar*/
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(
+    --violet-black
+  ); /* color of the scroll thumb on hover */
 }
 
 .container {
@@ -19,7 +42,32 @@
   padding: 2rem;
 }
 
+@font-face {
+  font-family: "Geist";
+  font-weight: 400;
+  src: url("../src/assets/fonts/Geist-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist";
+  font-weight: 500;
+  src: url("../src/assets/fonts/Geist-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Geist";
+  font-weight: 600;
+  src: url("../src/assets/fonts/Geist-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: url("../src/assets/fonts/Poppins-ExtraBold.ttf") format("ttf");
+}
+
 body {
+  font-family: "Geist";
   background-color: var(--main-black);
   color: var(--main-text);
 }

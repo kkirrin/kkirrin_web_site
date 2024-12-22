@@ -1,6 +1,6 @@
 import './App.css'
 
-import { Header, Footer } from '../components/index'
+import { Header, Footer, HeroSection } from '../components/index'
 
 function App() {
 
@@ -8,9 +8,7 @@ function App() {
     <>
       <main className='main'>
           <Header />
-          <div className='container'>
-
-          </div>
+          <HeroSection />
           <Footer />
       </main>
     </>

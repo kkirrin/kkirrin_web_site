@@ -1,0 +1,55 @@
+section.hero {
+    position: relative;
+    padding: 120px 0;
+}
+
+.bg_hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content_hero {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_hero {
+    margin-top: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Remove !important */
+    text-align: center;
+    line-height: 150%;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: clamp(1.875rem, 1.875rem + 2.0833vw, 3.75rem);    /* Add these lines for gradient */
+    background-image: linear-gradient(to right, #3a1492, #FF5733);
+    /* color: var(--violet) !important; */
+    /* Adjust colors */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* For Safari */
+    color: transparent;
+    /* Makes the text color transparent so gradient shows */
+}
+
+
+.desc_hero {
+    margin-top: 40px;
+    max-width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: var(--main-gray);
+    font-size: clamp(1rem, 1rem + 0.9722vw, 1.875rem);
+}
+
+.btn_wrapper_hero {
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
