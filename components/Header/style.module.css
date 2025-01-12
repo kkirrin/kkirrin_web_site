@@ -7,7 +7,7 @@ header {
   justify-content: space-between;
   align-items: center;
 
-  padding: 0 200p;
+  padding: 0 20px;
 }
 
 .nav {
@@ -24,4 +24,33 @@ header {
 .nav li:hover {
   color: var(--violet);
   text-decoration: underline;
+}
+
+.mobile_menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    /* Изначально скрываем меню */
+    width: 300px;
+    height: 100vh;
+    background-color: var(--main-gray);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 999;
+    padding-top: 60px;
+}  
+
+.mobile_menu_open {
+    right: 0;
+}
+
+.mobile_menu ul li {
+    padding: 10px 20px;
+    text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
 }

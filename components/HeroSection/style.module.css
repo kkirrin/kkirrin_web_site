@@ -62,4 +62,7 @@ section.hero {
   .btn_wrapper_hero {
     flex-direction: column;
   }
+  section.hero {
+    padding: 40px 0;
+  }
 }
