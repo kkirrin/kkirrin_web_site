@@ -19,12 +19,7 @@ export const tech_list = [
         'name': 'React',
         'image': 'http://localhost:5173/kkirrin_web_site/public/imgs/reactjs.svg'
     },
-
-    // {
-    //     'name': 'Next',
-    //     'image': ''
-    // },
-
+    
     {
         'name': 'Node',
         'image': 'http://localhost:5173/kkirrin_web_site/public/imgs/nodejs.svg'

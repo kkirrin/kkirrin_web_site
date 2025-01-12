@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     text-align: center;
-    gap: 10px;
+    gap: 60px;
 
     margin: 48px 0;
 }
@@ -27,4 +27,11 @@
 .img {
     width: 50px;
     height: 50px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .list_tech {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

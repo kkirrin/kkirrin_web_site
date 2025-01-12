@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +13,8 @@
   --main-white: #fff;
   --main-text: #fff;
   --second-black: #222222;
+
+  --card-bg: #2A2A2A;
 
   --violet: #6135c7;
   --violet-black: #3a1492;
