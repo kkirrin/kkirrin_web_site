@@ -57,3 +57,9 @@ section.hero {
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 480px) {
+  .btn_wrapper_hero {
+    flex-direction: column;
+  }
+}
