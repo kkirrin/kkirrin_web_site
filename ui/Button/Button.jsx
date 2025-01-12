@@ -2,8 +2,6 @@ import styles from './style.module.css';
 
 
 const Button = ({color, text}) => {
-
-    console.log(color)
     return (
         <button
             className={`${styles.btn_main} ${color === 'btn_main_white' ? styles.btn_main_white : styles.btn_main_black}`}

@@ -1,6 +1,6 @@
 import './App.css'
 
-import { Header, Footer, HeroSection } from '../components/index'
+import { Header, Footer, HeroSection, Technologies } from '../components/index'
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
       <main className='main'>
           <Header />
           <HeroSection />
+          <Technologies />
           <Footer />
       </main>
     </>

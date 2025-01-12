@@ -1,0 +1,30 @@
+
+.tech_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    letter-spacing: 12%;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--main-gray);
+}
+
+.list_tech { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    gap: 10px;
+
+    margin: 48px 0;
+}
+
+
+.img {
+    width: 50px;
+    height: 50px;
+}

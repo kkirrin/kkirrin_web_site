@@ -39,11 +39,11 @@ const HeroSection = () => {
 
                 <div className={styles.btn_wrapper_hero}>
                     <div>
-                        <Button text={'Download CV'} color={'btn_main_white'}/>
+                        <Button text={'Связаться со мной'} color={'btn_main_white'}/>
                     </div>
 
                     <div>
-                        <Button text={'Download CV'} color={'btn_main_black'}/>
+                        <Button text={'Скачать резюме'} color={'btn_main_black'}/>
                     </div>
                 </div>
                 </div>

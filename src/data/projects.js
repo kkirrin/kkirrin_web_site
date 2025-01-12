@@ -1,12 +1,17 @@
-export const projects = [
+export const Projects = [
     {
-        title: 'Avtopotencial',
-        description: '',
-        images: [
-            {},
-            {},
-            {}
-        ],
-        href: '#'
-    }
+        'title': 'Avtopotencial',
+        'link': '/'
+    },
+
+    {
+        'title': 'DMC',
+        'link': '/'
+    },
+
+    {
+        'title': 'autoproussr',
+        'link': '/'
+    },
 ]
+    
