@@ -9,8 +9,8 @@ const Footer = () => {
 
                 <div>
                     Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
-and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
-comprehensive skill set encompassing front-end and back-end technologies
+                    and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
+                    comprehensive skill set encompassing front-end and back-end technologies
                 </div>
 
 
