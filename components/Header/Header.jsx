@@ -23,33 +23,53 @@ const Header = () => {
                         </div>
                     </div>
 
-                     <ul className={styles.nav}>
+                    <ul className={styles.nav}>
                         <li>
+                            <a href="#works">
                             Works
+                            </a>
                         </li>
 
                         <li>
+                            <a href="#experience">
                             Experience
+                            </a>
                         </li>
 
                         <li>
+                            <a href="#contacts">
                             Contacts
+                            </a>
                         </li>
                     </ul>
-
 
 
                     <MobileMenuButton isOpen={isMenuOpen} onClick={handleToggleMenu} />
 
                     <nav className={`${styles.mobile_menu} ${isMenuOpen ? styles.mobile_menu_open : ''}`}>
-                        <ul style={{ marginTop: '30px'}}>
-                            <li><a href="#">А тут ничего нет, пока что...</a></li>
-              
+                         <ul style={{ marginTop: '20px'}}>
+                            <li onClick={handleToggleMenu}>
+                                <a href="#works">
+                                Works
+                                </a>
+                            </li>
+
+                            <li onClick={handleToggleMenu}>
+                                <a href="#experience">
+                                Experience
+                                </a>
+                            </li>
+
+                            <li onClick={handleToggleMenu}>
+                                <a href="#contacts">
+                                Contacts
+                                </a>
+                            </li>
                         </ul>
 
 
 
-                        <div>
+                        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'end', alignItems: 'end' }}>
                             <p style={{ opacity: 0.7, maxWidth: '300px', marginBottom: '10px' }}> Тут ведутся строительные работы, возможно, тут что-то будет интересное, следите за обновлением в <a href='https://t.me/Kkirrin'>телеграмм</a></p>
                             <img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXR1MnJhd3lnMzBtMjNyMGhhemkyN3h6MmVzeTZ4czlkZGU5MXZ6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mah9dFWo1WZX0WM62Q/giphy.gif' width={100} height={100} alt='' />
                         </div>

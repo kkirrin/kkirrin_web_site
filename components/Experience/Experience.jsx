@@ -7,7 +7,7 @@ import { Experience as experience_list } from '../../src/data/experience';
 
 const Experience = () => {
     return (
-        <section>
+        <section id='experience'>
             <div className="container">
                 <h3 className={styles.title_hero}>
                     Опыт

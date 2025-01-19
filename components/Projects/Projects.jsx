@@ -7,7 +7,7 @@ import { Projects as projects } from '../../src/data/projects';
 
 const Projects = () => {
      return (
-            <section className={styles.projects_section}>
+            <section id='works' className={styles.projects_section}>
                 <div className='container'>
                     <div className={styles.projects}>
 

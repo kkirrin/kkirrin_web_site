@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 @tailwind base;
@@ -95,17 +98,21 @@ body {
   z-index: 100;
 }
 
-@media screen and (max-width: 1024px) {
-  .info {
-    position: relative;
-    scale: 0.7;
-  }
-}
-
 .right {
-  right: -500px;
+  right: -200px;
 }
 
 .left {
   left: -500px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    position: relative;
+    right: 0;
+  }
+
+  .container {
+    padding: 1rem;
+  }
 }

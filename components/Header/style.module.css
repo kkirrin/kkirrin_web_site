@@ -1,6 +1,10 @@
 header {
   background-color: var(--second-black);
+
+
 }
+
+
 
 .wrapper {
   display: flex;
@@ -45,6 +49,10 @@ header {
     right: 0;
 }
 
+.mobile_menu_open body {
+  overflow-y: hidden;
+}
+
 .mobile_menu ul li {
     padding: 10px 20px;
     text-align: right;
@@ -53,5 +61,8 @@ header {
 @media screen and (max-width: 480px) {
   .nav {
     display: none;
+  }
+  .wrapper {
+    padding: 0px;
   }
 }

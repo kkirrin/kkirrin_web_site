@@ -2,7 +2,7 @@ import styles from './style.module.css'
 
 const Footer = () => {
     return (
-        <footer className={styles.footer}>
+        <footer id='contacts' className={styles.footer}>
             <div className='container'>
                 <h3 className={styles.title_hero}>Контакты</h3>
                 <div className={`${styles.wrapper_footer} relative`}>
