@@ -84,3 +84,28 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
+.relative {
+  position: relative;
+}
+
+.info {
+  position: absolute;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    position: relative;
+    scale: 0.7;
+  }
+}
+
+.right {
+  right: -500px;
+}
+
+.left {
+  left: -500px;
+}

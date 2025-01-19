@@ -1,11 +1,12 @@
 /* MobileMenuButton.module.css */
 .mobile_menu_button {
+  z-index: 1000;
   display: none;
   flex-direction: column;
   justify-content: space-around;
   width: 40px;
   height: 30px;
-  background-color: var(--violet);
+  /* background-color: var(--violet); */
   border: none;
   cursor: pointer;
   padding: 0;
@@ -25,9 +26,9 @@
 
 .burger_line {
   display: block;
-  width: 100%;
+  width: 40px;
   height: 2px;
-  background-color: var(--violet);
+  background-color: #3a1492;
   border-radius: 2px;
   transition: all 0.3s ease;
 }

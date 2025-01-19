@@ -1,5 +1,6 @@
 .title_hero {
     margin-top: 40px;
+    margin-bottom: 40px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     /* Remove !important */
     text-align: center;

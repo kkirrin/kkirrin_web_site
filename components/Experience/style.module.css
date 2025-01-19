@@ -1,5 +1,6 @@
 .title_hero {
   margin-top: 40px;
+  margin-bottom: 40px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* Remove !important */
   text-align: center;
@@ -33,6 +34,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  gap: 30px;
 }
 
 .main_content {
@@ -68,4 +71,11 @@
 
 .desc {
   margin-top: 20px;
+}
+
+
+@media screen and (max-width: 769px) {
+  .exp_title {
+    font-size: 18px;
+  }
 }

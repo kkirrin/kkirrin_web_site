@@ -25,7 +25,7 @@ const Experience = () => {
 
                               <div className={styles.wrapper}>
                                     <div className={styles.main_content}>
-                                        <p>Logo</p>
+                                        {/* <p>Logo</p> */}
                                         <h3 className={styles.exp_title}>{item.title}</h3>
                                     </div>
 

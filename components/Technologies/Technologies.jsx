@@ -6,7 +6,7 @@ import { tech_list } from '../../src/data/Technologies';
 const Technologies = () => {
     return (
         <section className={styles.tech_section}>
-            <div className='container'>
+            <div className='container relative'>
 
                 <div className={styles.technologies}>
                     <h3 className={styles.subtitle}>Технологии, С которыми я работаю</h3>
@@ -17,8 +17,15 @@ const Technologies = () => {
                                 <img className={styles.img} src={item.image} alt={item.alt} />
                             </li>
                         ))}
+                        
                     </ul>
                 </div>
+
+                <div className='info right'>
+                    <p style={{ opacity: 0.7, maxWidth: '300px', marginBottom: '10px' }}> Тут ведутся строительные работы, возможно, тут что-то будет интересное, следите за обновлением в <a href='https://t.me/Kkirrin'>телеграмм</a></p>
+                    <img src='https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXR1MnJhd3lnMzBtMjNyMGhhemkyN3h6MmVzeTZ4czlkZGU5MXZ6OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Mah9dFWo1WZX0WM62Q/giphy.gif' width={100} height={100} alt='' />
+                </div>
+                
             </div>
         </section>
     )
