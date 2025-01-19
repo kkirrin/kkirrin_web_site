@@ -36,7 +36,7 @@ const Projects = () => {
                                         </div>
 
                                         <div className={styles.item_project_bottom}>
-                                            <a className={styles.item_project_link} href={item.link}>
+                                            <a target='_blank' className={styles.item_project_link} href={item.link}>
                                                 Кликни, чтобы перейти
                                             </a>
                                             <p className={styles.item_project_title}>

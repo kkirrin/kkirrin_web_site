@@ -1,26 +1,23 @@
 export const Experience = [
     {
         'logo': '',
-        'title': 'Lead Software Engineer at Google',
-        'date': 'Nov 2019 - Present',
-        'desc': 'Text super text',
-        'link': '/'
+        'title': 'Web Programmer in INSIDE360',
+        'date': 'Октябрь 2023 — по настоящее время',
+        'desc': 'Создание, поддержка и развитие проектов, написанных на React.js / Next.js, с использованием Typescript, RTK / Zustand, Headless CMS Strapi. Интеграция сайтов с 1С. Создание веб-сайтов с CMS WP и E-commerce ( используя Woo) с интеграцией интернет-эквайринга и 1С.',
     },
 
     {
         'logo': '',
-        'title': 'Lead Software Engineer at Google',
-        'date': 'Nov 2019 - Present',
-        'desc': 'Text super text',
-        'link': '/'
+        'title': 'laboratory assistant in FEFU',
+        'date': 'Декабрь 2022 — Март 2024',
+        'desc': 'Занимался разработкой автоматизированных систем управления для технологических производств на низкоуровневых ЯП; Разрабатывал алгоритмы работы оборудования, подбирал необходимое закупочное оборудование; Делал прошивку контроллеров, а также монтаж оборудования на процессах. Принимал участие в разработке инструмента для анализа данных',
     },
 
     {
         'logo': '',
-        'title': 'Lead Software Engineer at Google',
+        'title': 'fullstack-delevoper as freelancer',
         'date': 'Nov 2019 - Present',
-        'desc': 'Text super text Text super text Text super text Text super text Text super text Text super text Text super text Text super textText super text Text super textText super text Text super text Text super text Text super text ',
-        'link': '/'
-    },
+        'desc': 'Разработка сайтов и интернет-магазинов на заказ. Создание пет-проектов (React .js + Redux + TaiwindCSS) Разработка программ на Electron.js, React Native.  Написание скриптов на python.' 
+    }
 ]
     

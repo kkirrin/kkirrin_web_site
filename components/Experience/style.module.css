@@ -58,6 +58,8 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 14px;
   color: var(--main-gray);
+
+  max-width: 660px;
 }
 
 .exp_date {

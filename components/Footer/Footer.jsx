@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='container'>
                 <h3 className={styles.title_hero}>Контакты</h3>
                 <div className={styles.wrapper_footer}>
-                    <div>
+                    <div className={styles.desc}>
                         Фуллстек-разработчик из Владивостока с 3+ годами опыта. Экспертиза во фронтенде (React, Next.js, TypeScript), бэкенде (Node.js, Express.js, Rest API, Nest.js), telegram API и базах данных (PostgreSQL, MySQL). Практический опыт разработки веб-приложений различной сложности. Готов к новым вызовам!
                     </div>
 
