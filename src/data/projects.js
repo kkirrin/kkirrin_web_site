@@ -43,7 +43,7 @@ export const Projects = [
 
     {
         'title': 'Vlad Decor',
-        'image': '/kkirrin_web_site/vlad.png',
+        'image': '/kkirrin_web_site/imgs/vlad.png',
         'link': 'https://vlad-dekor.ru'
     },
 
