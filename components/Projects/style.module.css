@@ -79,8 +79,13 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .projects_list {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .item_project {
+        max-height: 350px;
+        height: 100%;
     }
 }
