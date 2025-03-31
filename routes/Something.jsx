@@ -38,32 +38,33 @@ export default function Something() {
       renderer.setSize(window.innerWidth, window.innerHeight);
     }
 
-    window,addEventListener('resize', handleResize);
+    window.addEventListener('resize', handleResize);
 
     // функция для анимации
     const animate = ()  => {
       if(cubeRef.current) { 
-        cubeRef.current.rotaion.x += 0.01;
-        cubeRef.current.rotaion.y += 0.01;
+        cubeRef.current.rotation.x += 0.01;
+        cubeRef.current.rotation.y += 0.01;
       }
 
       renderer.render(scene, camera);
       animationRef.current = requestAnimationFrame(animate);
     }
+
+    animate();
+
+    // очистка
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      cancelAnimationFrame(animationRef.current);
+      // WEB GL close
+      renderer.dispose();
+      containerRef.current.removeChild(renderer.domElement);
+    }
       
-  })
-  
+  }, []);
 
   return (
-    animate(cube, renderer)
+    <div ref={containerRef} style={{ width: '100%', height: '100vh'}} />
   )
-}
-
-function animate(cube, renderer) {
-
-  cube.rotation.x += 0.01;
-  cube.rotation.y += 0.01;
-
-  renderer.render( scene, camera );
-
 }
