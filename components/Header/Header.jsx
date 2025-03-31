@@ -1,8 +1,9 @@
 import MobileMenuButton from '../MobileMenu/MobileMenuButton';
 import styles from './style.module.css';
 
-import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
+import { useState } from 'react';
 
 const Header = () => {
 
@@ -41,13 +42,16 @@ const Header = () => {
                             Contacts
                             </a>
                         </li>
+
+                        <Link to="/kkirrin_web_site/something_interesting">Something_interesting</Link>  
+
                     </ul>
 
 
                     <MobileMenuButton isOpen={isMenuOpen} onClick={handleToggleMenu} />
 
                     <nav className={`${styles.mobile_menu} ${isMenuOpen ? styles.mobile_menu_open : ''}`}>
-                         <ul style={{ marginTop: '20px'}}>
+                        <ul style={{ marginTop: '20px'}}>
                             <li onClick={handleToggleMenu}>
                                 <a href="#works">
                                 Works
@@ -65,6 +69,9 @@ const Header = () => {
                                 Contacts
                                 </a>
                             </li>
+
+                            <Link to="/react-something_interesting">Something_interesting</Link>  
+                             
                         </ul>
 
 

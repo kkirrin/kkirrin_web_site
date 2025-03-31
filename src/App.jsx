@@ -2,6 +2,7 @@ import './App.css'
 
 import { Header, Footer, HeroSection, Technologies, Projects, Experience } from '../components/index'
 
+
 function App() {
 
   return (
