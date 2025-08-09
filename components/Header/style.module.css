@@ -23,6 +23,9 @@ header {
   font-family: 500;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
+  list-style: none !important;
+  color: #e5e7eb;;
+
 }
 
 .nav li:hover {

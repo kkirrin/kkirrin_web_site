@@ -3,12 +3,16 @@
 import styles from './style.module.css';
 import { motion } from 'framer-motion';
 import Button from '@/ui/Button/Button';
+import dynamic from 'next/dynamic';
+
+const PointGrid = dynamic(() => import('@/components/PointGrid/PointGrid'), { ssr: false });
 
 const HeroSection = () => {
     
     return (
         <section className={styles.hero}>
             <img className={styles.bg_hero} src="/bg.png" alt="Hero Image" />
+            <PointGrid spacingPx={24} pointSize={4} />
             <div className="container">
                 <div className={styles.content_hero}>
 

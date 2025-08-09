@@ -21,6 +21,13 @@
   font-family: 500;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
+  list-style: none;
+  
+}
+
+.nav li a { 
+  color: var(--main-text);
+  text-decoration: none;
 }
 
 .nav li:hover {
