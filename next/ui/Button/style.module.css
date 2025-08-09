@@ -1,0 +1,39 @@
+.btn_main {
+  padding: 16px;
+  border-radius: 50px;
+  width: 195px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+
+
+.btn_main_black {
+  color: var(--main-white);
+  border: 2px solid var(--main-white);
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.btn_main_white {
+  border: none;
+  background-color: var(--main-white);
+  color: var(--main-black);
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+.btn_main_black:hover {
+  
+}
+
+.btn_main_white:hover {}
+
+
+.btn_main_black:active {}
+
+.btn_main_white:active {}

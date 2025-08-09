@@ -1,0 +1,66 @@
+.header {
+  background-color: var(--second-black);
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav li {
+  font-family: 500;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.nav li:hover {
+  color: var(--violet);
+  text-decoration: underline;
+}
+
+.mobile_menu {
+    position: fixed;
+    top: 0;
+    right: -480px;
+    /* Изначально скрываем меню */
+    width: 0%;
+    height: 100vh;
+    background-color: var(--second-black);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.6s ease;
+    z-index: 999;
+    padding-top: 60px;
+}  
+
+.mobile_menu_open {
+    width: 100%;
+    right: 0;
+}
+
+.mobile_menu_open body {
+  overflow-y: hidden;
+}
+
+.mobile_menu ul li {
+    padding: 10px 20px;
+    text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .nav {
+    display: none;
+  }
+  .wrapper {
+    padding: 0px;
+  }
+}

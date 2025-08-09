@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-black: #1f1f1f;
+  --main-white: #fff;
+  --main-text: #fff;
+  --second-black: #222222;
+  --card-bg: #2A2A2A;
+  --violet: #6135c7;
+  --violet-black: #3a1492;
+  --anim-function: 0.3s easy;
+  --main-gray: #c5c5c5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--second-black);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--violet-black);
+  border-radius: 5px;
+  border: 3px solid var(--violet);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--violet-black);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@font-face {
+  font-family: "Geist";
+  font-weight: 400;
+  src: url("/fonts/Geist-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist";
+  font-weight: 500;
+  src: url("/fonts/Geist-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Geist";
+  font-weight: 600;
+  src: url("/fonts/Geist-Semibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src: url("/fonts/Poppins-ExtraBold.ttf") format("ttf");
+}
+
+body {
+  font-family: "Geist";
+  background-color: var(--main-black);
+  color: var(--main-text);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.relative { position: relative; }
+.info { position: absolute; z-index: 100; }
+.right { right: -200px; }
+.left { left: -500px; }
+
+@media screen and (max-width: 1024px) {
+  .info {
+    position: relative;
+    right: 0;
+  }
+  .container { padding: 1rem; }
+}
