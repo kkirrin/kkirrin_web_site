@@ -6,3 +6,5 @@ export { default as Technologies } from './Technologies/Technologies';
 export { default as Projects} from './Projects/Projects';
 export { default as Experience } from './Experience/Experience';
 export { default as MobileMenuButton } from './MobileMenu/MobileMenuButton';
+export { default as FaviconStatus } from './FaviconStatus/FaviconStatus';
+export { default as VerificationBlock } from './VerificationBlock/VerificationBlock';

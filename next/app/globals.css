@@ -87,3 +87,14 @@ body {
   }
   .container { padding: 1rem; }
 }
+
+
+a {
+  color: var(--main-color);
+  text-transform: none;
+  text-decoration: none;
+}
+
+li {
+  list-style: none !important;
+}

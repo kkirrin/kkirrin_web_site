@@ -36,7 +36,7 @@ const Projects = () => {
                                                 src={item.image} 
                                                 height={350}
                                                 width={350}
-                                                alt={item.alt} 
+                                                alt={`item.alt`} 
                                             />
                                         </div>
 

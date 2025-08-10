@@ -1,0 +1,19 @@
+{
+  "name": "Кирилл - Frontend Developer",
+  "short_name": "Кирилл",
+  "description": "Портфолио Frontend разработчика Кирилла",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["technology", "portfolio"],
+  "lang": "ru"
+}

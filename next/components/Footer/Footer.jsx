@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import styles from './style.module.css'
 
 const Footer = () => {
@@ -22,7 +23,7 @@ const Footer = () => {
                         Социальные сети
 
                         <ul className={styles.socials_links}>
-                            <li><a href='https://t.me/Kkirrin'>Телеграм</a></li>
+                            <li><Link href='https://t.me/Kkirrin'>Телеграм</Link></li>
                         </ul>
                     </div>
                 </div>

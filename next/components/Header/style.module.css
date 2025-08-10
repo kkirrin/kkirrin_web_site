@@ -26,7 +26,7 @@
 }
 
 .nav li a { 
-  color: var(--main-text);
+  color: var(--main-text) !important;
   text-decoration: none;
 }
 

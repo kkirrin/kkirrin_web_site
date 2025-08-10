@@ -68,3 +68,11 @@
 
   margin-top: 20px;
 }
+
+.socials_links li {
+  list-style: none;
+}
+
+.socials_links a {
+  color: var(--main-color);
+}
