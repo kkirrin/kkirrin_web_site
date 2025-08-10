@@ -13,9 +13,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   generateEtags: true,
   reactStrictMode: true,
-  experimental: {
-    optimizeCss: true,
-  },
+
 }
 
 export default nextConfig

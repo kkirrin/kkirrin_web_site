@@ -10,7 +10,7 @@ const Technologies = () => {
             <div className='container relative'>
 
                 <div className={styles.technologies}>
-                    <h3 className={styles.subtitle}>Технологии, С которыми я работаю</h3>
+                    <h3 className={styles.subtitle}>Технологии, с которыми я работаю</h3>
 
                     <ul className={styles.list_tech}>
                         {tech_list.map((item, idx) => (

@@ -49,6 +49,7 @@ export const metadata: Metadata = {
   classification: 'portfolio',
   verification: {
     google: '33d0cebd34c3c2fd',
+    yandex: '33d0cebd34c3c2fd',
   },
   icons: '/favicon.ico',
 };
